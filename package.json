@@ -4,14 +4,20 @@
   "version": "1.13.4",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js"
+    "start": "budo dist/index.js"
   },
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^12.0.1",
     "gl-shader": "^4.2.1",
+    "gl-texture2d": "^2.1.0",
+    "gl-transition": "^1.13.0",
     "gl-transitions": "1",
     "regl": "^1.3.0",
-    "regl-transition": "^1.13.4"
+    "regl-transition": "^1.13.4",
+    "resl": "^1.0.3",
+    "tslint": "^5.5.0",
+    "typescript": "^2.5.3"
   },
   "devDependencies": {
     "budo": "^10.0.3"
